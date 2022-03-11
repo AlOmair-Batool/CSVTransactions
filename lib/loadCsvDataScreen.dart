@@ -43,12 +43,8 @@ class LoadCsvDataScreen extends StatelessWidget {
                                 ), Text(
                                   data[3].toString(),
                                 ),
-                                Text(
-                                  data[4].toString(),
-                                ),
-                                Text(
-                                  data[5].toString(),
-                                ),
+
+
                               ],
                             ),
                           ),

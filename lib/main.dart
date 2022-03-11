@@ -92,10 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
     List<List<String>> data = [
       ["Time","Date.", "Amount", "Type"],
       ["19:30", "01/01/2020", amount, depositOrWithdraw],
-      ["Alinma", randomAlpha(3), randomNumeric(3)],
-      ["Alinma", randomAlpha(3), randomNumeric(3)],
-      ["Alinma", randomAlpha(3), randomNumeric(3)],
-      ["Alinma", randomAlpha(3), randomNumeric(3)]
+
     ];
     String csvData = ListToCsvConverter().convert(data);
     final String directory = (await getApplicationSupportDirectory()).path;
